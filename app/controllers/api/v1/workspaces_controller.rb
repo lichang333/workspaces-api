@@ -10,9 +10,4 @@ class Api::V1::WorkspacesController < Api::V1::BaseController
     render json: @workspaces
   end
 
-  private
-  def set_workspace
-    # @workspaces = Workspace.find(params[:id])
-    # render json: @workspaces
-  end
 end
